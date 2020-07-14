@@ -72,6 +72,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+#hello {
+	-webkit-transition: 0.25s; /* Safari 3.1 to 6.0 */
+	transition: 0.25s;
+	opacity: 1;
+}
 /* Basic */
 
 	html {
